@@ -1,6 +1,6 @@
 @media (max-width: 769px) {
     main::after {
-        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(26, 26, 32, 1) 40%, rgba(255, 255, 255, 0) 60%) no-repeat;
         width: 100vw;
     }
 
@@ -44,6 +44,7 @@
     .conteudo .logo {
         width: 170px;
         height: 75px;
+        margin-bottom: 5px;
 
     }
 
@@ -57,8 +58,8 @@
 
     .botoes {
         padding: 20px;
-        top:-7%;
-        
+        top: -7%;
+
     }
 
     .botoes .botao {
